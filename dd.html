@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>맛집 리스트</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        }
+
+        header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        }
+
+        h1 {
+        margin: 0;
+        }
+
+        main {
+        padding: 20px;
+        }
+
+        .problem-list {
+        margin-bottom: 20px;
+        }
+
+        .problem {
+        list-style: none;
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        }
+
+        .problem a {
+        text-decoration: none;
+        color: #333;
+        }
+
+        .tags {
+        display: block;
+        font-size: 0.8em;
+        color: #999;
+        }
+
+        .problem-detail {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        }
+
+        .problem-description {
+        margin-bottom: 20px;
+        }
+
+        .run-code {
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        }
+
+        .output {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-family: monospace;
+    }
+        @media (max-width: 768px) {
+    .problem-list {
+        margin-bottom: 10px;
+    }
+
+    .problem {
+        margin-bottom: 5px;
+    }
+
+    .problem-detail {
+        padding: 10px;
+    }
+
+    .problem-description {
+        margin-bottom: 10px;
+    }
+
+    .output {
+        font-size: 100%;
+    }
+    }
+        .problem img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+        .problem-detail h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    }
+
+    .problem-detail .output {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    }
+    
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>맛집 리스트</h1>
+    </header>
+    <main>
+        <section class="problem-list">
+            <h2>맛집 목록</h2>
+            <ul>
+                <li class="problem">
+                    <a href="#">첫 번째 맛집</a>
+                </li>
+            </ul>
+        </section>
+        <section class="problem-detail">
+            <h2>차이나 스푼</h2>
+            <a href="https://www.google.com/maps?sca_esv=2f2220d6c82008f2&sca_upv=1&output=search&q=%EC%84%B1%EB%82%A8+%EC%B0%A8%EC%9D%B4%EB%82%98+%EC%8A%A4%ED%91%BC&source=lnms&fbs=AEQNm0DmKhoYsBCHazhZSCWuALW8l8eUs1i3TeMYPF4tXSfZ9yJtK-sBxmp6XZa5KZqDIBIOBhtTR2YiljzchvkPCHnFFsYtB7m2LUk7PAU9Y1PHYyWDY-Q2-Ugo6TuyvgPPG1e25gN7h9ApPCW4Rp9SHzHW37Vk1FwsjOAjkU4WpL8kbLmm-jjajNwiXt0ZC4YNKg5qr3ib&entry=mc&ved=1t:200715&ictx=111"><img src="https://lh3.googleusercontent.com/p/AF1QipPOeaiY_2jEKTxXMnGLwu3GUL3f9rhWa7DuCjeH=s1360-w1360-h1020" width="500px", height="auto"></a>
+
+            <div class="output" style="font-size: 120%;">
+                저렴한 가격에 깔끔한 중식당 가천대에 위치한 차이나스푼입니다. 이곳은 저렴한 가격으로 즐기는 맛집인데요. 주메뉴로는 짜장면, 매운짜장면, 짬뽕, 매운짬뽕, 굴탕면, 새우 볶음밥, 짬뽕밥, 잡채밥, 마파두부밥 등의 식사류와 탕수육, 깐풍기, 유린기, 크림새우, 깐풍새우 등의 튀김류, 양장피 팔보채 유산슬 등의 볶음류가 있습니다. 단품류 뿐만 아니라 코스요리도 판매하고 있는데요. 코스류는 3인 이상 가능하다고 합니다. 그 외에도 세트 메뉴를 주문하면 단품요리보다 더 저렴하게 제공됩니다.
+                </div>
+        </section>
+
+
+        <section class="problem-list">
+            <ul>
+                <li class="problem">
+                    <a href="#">두 번째 맛집</a>
+                </li>
+            </ul>
+        </section>
+        <section class="problem-detail">
+            <h2>가브리엘</h2>
+            <a href="https://www.google.com/maps/dir/37.4508463,127.1286291/%EA%B2%BD%EA%B8%B0%EB%8F%84+%EC%84%B1%EB%82%A8%EC%8B%9C+%EC%88%98%EC%A0%95%EA%B5%AC+%ED%83%9C%ED%8F%89%EB%8F%99+6493+%EA%B0%80%EB%B8%8C%EB%A6%AC%EC%97%98/data=!3m1!4b1!4m19!1m8!3m7!1s0x357ca89dcb961e01:0x5f5896932fdcb537!2z6rCA67iM66as7JeY!8m2!3d37.4414499!4d127.1283133!15sCgzqsIDruIzrpqzsl5haDiIM6rCA67iM66as7JeYkgEEY2FmZeABAA!16s%2Fg%2F11cp7kysyq!4m9!1m1!4e1!1m5!1m1!1s0x357ca89dcb961e01:0x5f5896932fdcb537!2m2!1d127.1283133!2d37.4414499!3e3?entry=ttu"><img src="https://media-cdn.tripadvisor.com/media/photo-o/0c/18/6d/23/caption.jpg" width="500px", height="auto"></a>
+
+            <div class="output" style="font-size: 120%;">
+                도심과 청계산, 탄천이 내려다 보이는 탁트인전망 하늘정원에서 직접 기르는 애플민트로 만드는 모히토 가브리엘에서 쉼을 누리세요
+                </div>
+        </section>
+
+
+
+        <section class="problem-list">
+            <ul>
+                <li class="problem">
+                    <a href="#">세 번째 맛집</a>
+                </li>
+            </ul>
+        </section>
+        <section class="problem-detail">
+            <h2>포트 하우스</h2>
+            <a href="https://www.google.com/maps/place/%ED%8F%AC%ED%8A%B8%ED%95%98%EC%9A%B0%EC%8A%A4/data=!3m1!4b1!4m6!3m5!1s0x357caf7c5fc2aa49:0x968d3f2c92ad8d0b!8m2!3d37.4678412!4d127.1388003!16s%2Fg%2F11sw_xn08z?entry=ttu"><img src="https://media-cdn.tripadvisor.com/media/photo-o/1b/2c/35/43/caption.jpg" width="500px", height="auto"></a>
+
+            <div class="output" style="font-size: 120%;">
+                위례 성남시에 있는 와인바 입니다. 각종 와인과 스테이크, 파스타, 치즈류가 있습니다. 아일랜드와 런던의 모티브로 인테리어를 해서 이국적인 느낌을 받으실 수 있습니다.
+                </div>
+        </section>
+
+
+
+
+        <section class="problem-list">
+            <ul>
+                <li class="problem">
+                    <a href="#"> 네 번째 맛집</a>
+                </li>
+            </ul>
+        </section>
+        <section class="problem-detail">
+            <h2>탈리</h2>
+            <a href="https://www.google.com/maps?sca_esv=2f2220d6c82008f2&sca_upv=1&output=search&q=%EC%84%B1%EB%82%A8+%EC%B0%A8%EC%9D%B4%EB%82%98+%EC%8A%A4%ED%91%BC&source=lnms&fbs=AEQNm0DmKhoYsBCHazhZSCWuALW8l8eUs1i3TeMYPF4tXSfZ9yJtK-sBxmp6XZa5KZqDIBIOBhtTR2YiljzchvkPCHnFFsYtB7m2LUk7PAU9Y1PHYyWDY-Q2-Ugo6TuyvgPPG1e25gN7h9ApPCW4Rp9SHzHW37Vk1FwsjOAjkU4WpL8kbLmm-jjajNwiXt0ZC4YNKg5qr3ib&entry=mc&ved=1t:200715&ictx=111"><img src="https://img.siksinhot.com/place/1463464299725887.png?w=307&h=300&c=Y" width="500px", height="auto"></a>
+
+            <div class="output" style="font-size: 120%;">
+                사장님이 동남아를 여행한 후 인도요리에 감동을 받아 오픈한 인도요리 전문점입니다. 인도 요리사와 함께 북인도 요리를 선보이고 있습니다. 이국적인 분위기가 인상적이며 인도식 만두 사모사가 인기입니다.
+                </div>
+        </section>
+
+
+
+
+
+        <section class="problem-list">
+            <ul>
+                <li class="problem">
+                    <a href="#">다섯 번째 맛집</a>
+                </li>
+            </ul>
+        </section>
+        <section class="problem-detail">
+            <h2>성남중앙칼국수</h2>
+            <a href="https://www.google.com/maps/place/%EC%84%B1%EB%82%A8%EC%A4%91%EC%95%99%EC%B9%BC%EA%B5%AD%EC%88%98/data=!3m1!4b1!4m6!3m5!1s0x357ca89968349bc9:0x3e5ddf74eb07748a!8m2!3d37.4415275!4d127.1326248!16s%2Fg%2F11j90lrrl1?entry=ttu"><img src="https://d12zq4w4guyljn.cloudfront.net/750_750_20240419034041_photo1_96fe98eaa714.jpg" width="500px", height="auto"></a>
+
+            <div class="output" style="font-size: 120%;">
+                중앙시장 안에 있는 것이 아니기에 주차요금은 지원받지 못하지만 주차요금이 저렴하기에 주차하고 식사해도 부담은 없다. 
+                </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 코드 문제 제공 웹 페이지</p>
+    </footer>
+</body>
+</html>
