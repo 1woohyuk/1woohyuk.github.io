@@ -23,6 +23,7 @@
     .bt_wrap {
       text-align: center; 
       width: auto;
+      margin: 0 5px;
       float: right;
     }
   }
